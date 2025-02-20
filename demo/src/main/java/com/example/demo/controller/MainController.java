@@ -8,6 +8,6 @@ public class MainController {
 
     @GetMapping("/")
     public String showHomePage() {
-        return "main"; // Asegúrate de que el nombre es correcto y coincide con main.html
+        return "main"; // Se refiere a templates/main.html
     }
 }
